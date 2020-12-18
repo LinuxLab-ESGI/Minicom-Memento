@@ -15,7 +15,7 @@ yum install minicom -y
 ```
 <i>For RedHat ones</i>
 
-Of course, to use Minicom you will need an equipment with a serial port like a switch or a router for example. This connection is possible only if you have a serial wire (depends of the equipment and it's brand).
+Of course, to use Minicom you will need an equipment with a serial port like a switch or a router for example. This connection is possible only if you have a serial wire (depends of the equipment and its brand).
 
 ## I - Presentation
 
