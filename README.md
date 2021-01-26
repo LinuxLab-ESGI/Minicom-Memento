@@ -21,7 +21,7 @@ Of course, to use Minicom you will need an equipment with a serial port like a s
 
 So, what is Minicom ? It's a useful package to handle a serial connection on Linux systems between your device and another equipment. It's (most of the time) a direct connection, so the wire is plugged without any intermediate. Minicom is free and open source, and runs under most linux distributions. Finally, it handles the well-known standards like RS-232, RS-485 or RS-422. 
 
->As I said before, most of the time serial connections need a wire to join directly the PC and the device. But alternatives exist like the Moxa 6150 for example. This kind of equipment permits to join the device via an ethernet connection. So, you don't have do be physically in front of the device especially for reloading it and in this case, Minicom is useless. It only needs a simple terminal to initialize a telnet/ssh connection !
+>As I said before, most of the time serial connections need a wire to join directly the PC and the device. But alternatives exist like the Moxa 6150 for example. This kind of equipment permits to join the device via an ethernet connection. So, you don't have do be physically in front of the device especially for reloading it and in this case, Minicom is useless. It only needs a simple terminal to initialize a telnet/ssh connection through the equipment !
 
 ## II - Minicom configuration
 
@@ -47,7 +47,7 @@ Then, you should have something like that :
 <br>
 <div style="text-align:center"><img src="img/final_settings.png" style="width:50%"/></div>
 <br>
-You can now press <b>Enter</b> and select <b>Save setup as dfl</b> (dfl = default) for the next connections. This option requires root privileges and that's why we had to configure minicom with a root user.
+You can now press <b>Enter</b> and select <b>Save setup as dfl</b> (dfl = default) for the next connections. This option requires root privileges and that's why we had to configure minicom with the root user.
 
 
 ## III - Initialize a serial connection
@@ -55,4 +55,4 @@ You can now press <b>Enter</b> and select <b>Save setup as dfl</b> (dfl = defaul
 To start the serial connection, just enter the command <b>minicom</b> in a terminal and you will be able to interact with your equipment via the serial wire. Be sure that you plugged the wire in the same port with the <b>dmesg</b> command. If not, configure minicom again or change the port.
 
 __________
-Updated : 18/12/2020, Author : Xen0rInspire
+Updated : 26/01/2021, Author : Xen0rInspire
