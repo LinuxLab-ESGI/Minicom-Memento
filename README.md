@@ -55,4 +55,4 @@ You can now press <b>Enter</b> and select <b>Save setup as dfl</b> (dfl = defaul
 To start the serial connection, just enter the command <b>minicom</b> in a terminal and you will be able to interact with your equipment via the serial wire. Be sure that you plugged the wire in the same port with the <b>dmesg</b> command. If not, configure minicom again or change phisically the port on your device.
 
 __________
-Updated : 31/01/2021, Author : Xen0rInspire
+<i>Updated : 31/01/2021, Author : Xen0rInspire</i>
