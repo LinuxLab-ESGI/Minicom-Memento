@@ -1,5 +1,5 @@
 # Minicom - Memento
-<i>Memento for Minicom, the best way to initialize serial connections on Linux !</i>
+<i>Memento to initialize serial connections with Minicom on Linux systems !</i>
 __________
 
 ### Prerequisite : 
@@ -55,4 +55,4 @@ You can now press <b>Enter</b> and select <b>Save setup as dfl</b> (dfl = defaul
 To start the serial connection, just enter the command <b>minicom</b> in a terminal and you will be able to interact with your equipment via the serial wire. Be sure that you plugged the wire in the same port with the <b>dmesg</b> command. If not, configure minicom again or change phisically the port on your device.
 
 __________
-<i>Updated : 30/08/2022, Author : Xen0rInspire</i>
+<i>Updated : 07/10/2022, Author : Xen0rInspire</i>
